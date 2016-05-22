@@ -15,3 +15,7 @@ server.pid
 *.eml
 /dist/
 .cache
+.idea
+target
+project/project
+project/target
