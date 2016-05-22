@@ -1,5 +1,0 @@
-#!/bin/bash
-export PATH=$OPENSHIFT_DATA_DIR/jdk1.8.0_05/bin:$PATH
-export JAVA_HOME="$OPENSHIFT_DATA_DIR/jdk1.8.0_05"
-cd $OPENSHIFT_REPO_DIR
-$OPENSHIFT_REPO_DIR/activator -mem 500 -Duser.home=$OPENSHIFT_REPO_DIR/fakehome clean stage
